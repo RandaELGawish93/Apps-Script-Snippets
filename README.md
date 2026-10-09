@@ -10,6 +10,18 @@ Small, reusable Google Apps Script utilities for Google Sheets. Each one came ou
 | [`split-rows-into-tabs`](snippets/split-rows-into-tabs) | Reads a list from a **Source** sheet and creates one tab per category, for example a training catalog grouped by scope. It includes a menu and a sample-data generator. |
 | [`restructure-sheet-columns`](snippets/restructure-sheet-columns) | A safe, **re-runnable migration** for multi-tab workbooks. It drops columns by header name, renames a header on every tab, and creates a new tab from a template with an extra column and dropdowns. |
 
+## Screenshots
+
+> Illustrations of the sheets this script builds, filled with **fictional sample data**. No real school, staff or student data is included.
+
+**split-rows-into-tabs: the Source sheet**
+
+![split-rows-into-tabs: the Source sheet](docs/screenshots/snip-source.png)
+
+**split-rows-into-tabs: one tab created per category**
+
+![split-rows-into-tabs: one tab created per category](docs/screenshots/snip-result.png)
+
 ## Using a snippet
 
 1. Open your Google Sheet → **Extensions → Apps Script**.
